@@ -38,10 +38,10 @@ const orders = () => {
                                 <p className='text-gray-600 sm:text-left text-right'>
                                     <span className={
                                         order.status == 'Processing'
-                                            ? 'bg-green-200 p-2 rounded-lg'
+                                            ? 'bg-yellow-200 p-2 rounded-lg'
                                             : order.status == 'Completed'
-                                                ? 'bg-slate-200 p-2 rounded-lg'
-                                                : 'bg-yellow-200 p-2 rounded-lg'
+                                                ? 'bg-green-200 p-2 rounded-lg'
+                                                : 'bg-red-200 p-2 rounded-lg'
                                     }
                                     >
                                         {order.status}
