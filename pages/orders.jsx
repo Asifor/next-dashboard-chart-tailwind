@@ -25,8 +25,8 @@ const orders = () => {
                                 
                                 {/* Name and Amount */}
                                 <div className='flex'>
-                                    <div className='bg-purple-100 p-3 rounded-lg'>
-                                        <FaShoppingBag className='text-purple-800' />
+                                    <div className='bg-blue-100 p-3 rounded-lg'>
+                                        <FaShoppingBag className='text-blue-800' />
                                     </div>
                                     <div className='pl-4'>
                                         <p className='text-gray-800 font-bold'>${order.total.toLocaleString()}</p>
