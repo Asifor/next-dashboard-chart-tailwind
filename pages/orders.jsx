@@ -25,8 +25,8 @@ const orders = () => {
                                 
                                 {/* Name and Amount */}
                                 <div className='flex'>
-                                    <div className='bg-blue-100 p-3 rounded-lg'>
-                                        <FaShoppingBag className='text-blue-800' />
+                                    <div className='bg-slate-100 p-3 rounded-lg'>
+                                        <FaShoppingBag className='text-slate-800' />
                                     </div>
                                     <div className='pl-4'>
                                         <p className='text-gray-800 font-bold'>${order.total.toLocaleString()}</p>
@@ -40,7 +40,7 @@ const orders = () => {
                                         order.status == 'Processing'
                                             ? 'bg-green-200 p-2 rounded-lg'
                                             : order.status == 'Completed'
-                                                ? 'bg-blue-200 p-2 rounded-lg'
+                                                ? 'bg-slate-200 p-2 rounded-lg'
                                                 : 'bg-yellow-200 p-2 rounded-lg'
                                     }
                                     >

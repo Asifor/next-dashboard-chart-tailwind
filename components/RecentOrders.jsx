@@ -11,8 +11,8 @@ const RecentOrders = () => {
             <ul>
                 {data.map((order, id) => (
                     <li key={id} className='bg-gray-50 hover:bg-gray-100 rounded-lg my-3 p-2 flex items-center cursor-pointer'>
-                        <div className='bg-blue-100 rounded-lg p-3'>
-                            <FaShoppingBag className='text-blue-800' />
+                        <div className='bg-slate-100 rounded-lg p-3'>
+                            <FaShoppingBag className='text-slate-800' />
                         </div>
                         <div className='pl-4'>
                             <p className='text-gray-800 font-bold'>${order.total}</p>

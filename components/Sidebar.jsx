@@ -11,7 +11,7 @@ const Sidebar = ({ children }) => {
             <div className='flex w-20 h-screen p-4 bg-white border-r-[1px] flex flex-col justify-between'>
                 <div className="flex flex-col items-center">
                     <Link href='/'>
-                        <div className='bg-blue-800 text-white p-3 rounded-lg inline-block'>
+                        <div className='bg-slate-800 text-white p-3 rounded-lg inline-block'>
                             <RxSketchLogo size={20} />
                         </div>
                     </Link>
