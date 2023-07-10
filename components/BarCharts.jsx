@@ -26,6 +26,20 @@ const BarCharts = () => {
 
     const [chartOptions, setChartOptions] = useState({});
 
+    useEffect(() => {
+        setChartData({
+            labels: ['Mon', 'Tues', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+            datasets: [
+                {
+                    label: 'Sales $',
+                    data: [15343, 22321, 19200, 17283, 23432, 17102, 22300],
+                    borderColor: 'rgb(53, 162, 235)',
+                    backgroundColor: 'rgba(53, 162, 235, 0.4)'
+                }
+            ]
+        })
+    }, [])
+
     return (
         <>
             <div className='w-full md:col-span-2 relative lg:h-[700] h-[50vh] m-auto p-4 border rounded-lg bg-white'>
