@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { RxSketchLogo, RxDashboard, RxPerson } from 'react-icons/rx';
-import { FiSettings } from 'react-icons/fi';
+import { AiFillGithub } from 'react-icons/ai';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
 import { usePathname } from 'next/navigation';
 
@@ -57,9 +57,9 @@ const Sidebar = ({ children }) => {
                     {/* Sidebar Link */}
 
                     {/* Sidebar Link */}
-                    <Link href=''>
+                    <Link href='https://github.com/Asifor/next-dashboard-chart-tailwind' target='_blank'>
                         <div className='bg-gray-100 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block'>
-                            <FiSettings size={20} />
+                            <AiFillGithub size={20} />
                         </div>
                     </Link>
                     {/* Sidebar Link */}
