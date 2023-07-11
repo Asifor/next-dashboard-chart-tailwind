@@ -57,7 +57,7 @@ const Sidebar = ({ children }) => {
                     {/* Sidebar Link */}
 
                     {/* Sidebar Link */}
-                    <Link href='/'>
+                    <Link href=''>
                         <div className='bg-gray-100 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block'>
                             <FiSettings size={20} />
                         </div>
