@@ -7,15 +7,16 @@ const customers = () => {
     return (
         <>
             <Head>
-                <title>Customers List</title>
-                <meta name="description" content="Customers List" />
+                <title>Customers</title>
+                <meta name="description" content="Customers" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
             <div className='bg-gray-100 min-h-screen'>
                 <div className='flex justify-between p-4'>
                     <h2>Customers</h2>
-                    <h2>Hola, Kings</h2>
+                    <h2>Hola, Asifor!</h2>
                 </div>
 
                 <div className='p-4'>
